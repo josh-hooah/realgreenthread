@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { sendToWhatsApp, formatBookingMessage } from '../utils/whatsappIntegration';
 import '../styles/CustomBooking.css';
 
