@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Cart.css';
 
 function Cart({ cart, removeFromCart, updateCartQuantity }) {
-  const navigate = useNavigate();
+
 
   const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 

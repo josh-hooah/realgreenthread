@@ -4,7 +4,7 @@ import { sendToWhatsApp, formatBookingMessage } from '../utils/whatsappIntegrati
 import '../styles/CustomBooking.css';
 
 function CustomBooking() {
-  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',

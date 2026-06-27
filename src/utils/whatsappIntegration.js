@@ -1,5 +1,5 @@
 // WhatsApp Integration Utility
-const WHATSAPP_CONTACT = "+234 905 881 0096";
+
 const WHATSAPP_NUMBER = "234905881096"; // Format without spaces for WhatsApp API
 
 export const sendToWhatsApp = (message) => {
